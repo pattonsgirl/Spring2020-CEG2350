@@ -113,5 +113,12 @@ Using MobaXterm perform the following actions:
 *Note: There are no questions to answer in Part 1.  Please just document your
 experience creating the lab environment.*
 
+## Part 3 - Using Your Environment
+1. Try 10 commands in your AWS Educate Virtual Machine
+2. Paste the input and output for each command you chose in your Lab01-LastName.txt file
+3. For each command you tried in your AWS Educate environment, try to find its equivalent
+    in Windows.  You can use either cmd or Powershell, but do specify which was needed 
+    to run the equivalent command.  Put your answers in Lab01-LastName.txt
+
 ### Acknowledgement
 Credit to Matt Kijowski's GitHub Repo - [Lab 1 for Cyber Security Analysis](https://github.com/mkijowski/cyber-security-analysis-applied/blob/master/labs/lab1.md)
