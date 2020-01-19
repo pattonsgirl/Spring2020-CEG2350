@@ -110,7 +110,7 @@ Using MobaXterm perform the following actions:
   and *ElasticIP* with your information):  
   `ssh -i /path/to/private/key ubuntu@ElasticIP`
 
-*Note: There are no questions to answer in Part 1.  Please just document your
+*Note: There are no questions to answer in Part 2.  Please just document your
 experience creating the lab environment.*
 
 ## Part 3 - Using Your Environment
