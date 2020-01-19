@@ -97,7 +97,7 @@ Now we need to create an SSH key pair to get to your virtual machine.
 *Note: There are no questions to answer in Part 1.  Please just document your
 experience creating the lab environment.*
 
-## Part 3 - Connecting to the AWS environment
+## Part 2 - Connecting to the AWS environment
 **You are now ready to make an SSH connection to your AWS server.**  
 Using MobaXterm perform the following actions:
 * Copy the AWS private SSH key to your home directory
@@ -109,6 +109,9 @@ Using MobaXterm perform the following actions:
 * SSH into your AWS server with the following (replace */path/to/private/key*
   and *ElasticIP* with your information):  
   `ssh -i /path/to/private/key ubuntu@ElasticIP`
+
+*Note: There are no questions to answer in Part 1.  Please just document your
+experience creating the lab environment.*
 
 ### Acknowledgement
 Credit to Matt Kijowski's GitHub Repo - [Lab 1 for Cyber Security Analysis](https://github.com/mkijowski/cyber-security-analysis-applied/blob/master/labs/lab1.md)
