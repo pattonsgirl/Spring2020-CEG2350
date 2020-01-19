@@ -77,7 +77,7 @@ Now we need to create an SSH key pair to get to your virtual machine.
   downloads the private key to your local machine.
 * **Do not lose this private key.**  
   If you do lose it, log in to AWS Educate, delete the lost key, and generate a new one.  
-  Later in this lab, you will save your key to your Github repository
+  If you are using a lab machine, save your key by emailing it to yourself to saving it to a USB drive
 * Once you have created your SSH key, [click here to provision your virtual environment](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=CEG-2350&templateURL=https:%2F%2Fwsu-cecs-cf-templates.s3.us-east-2.amazonaws.com%2Fceg2350.yml)  
   This link autofills many fields for creating our virtual machine.
   * On the first menu, click Next
@@ -97,24 +97,17 @@ Now we need to create an SSH key pair to get to your virtual machine.
 *Note: There are no questions to answer in Part 1.  Please just document your
 experience creating the lab environment.*
 
-## Part 2 - Create a GitHub Repository
-This will walk you through creating a repository to keep your AWS Educate private key.
-1. Sign in to [GitHub](https://github.com/)
-2. Under Repository, select New
-3. Create a name for your repository.  For example, mine is aws-edu-key
-4. Set the repository to "Private"
-    This is important, otherwise everyone on the internet can see your keys.
-5. Select Create Repository
-6. Select Create new file - this will open a text editor in 
-
 ## Part 3 - Connecting to the AWS environment
 **You are now ready to make an SSH connection to your AWS server.**  
 Using MobaXterm perform the following actions:
-* Install git
 * Copy the AWS private SSH key to your home directory
+* Make a file with the name of your AWS Educate key
+    * For example, `ceg2350-aws-vm.pem`
+* Open a text editor (`vim` or `nano`) for your file
+    * Copy the contents of the file that was downloaded from AWS Educate into the file
 * Make the key only readable by your user (`chmod`)
 * SSH into your AWS server with the following (replace */path/to/private/key*
-  and *ElasticIP* with your information):
+  and *ElasticIP* with your information):  
   `ssh -i /path/to/private/key ubuntu@ElasticIP`
 
 ### Acknowledgement
