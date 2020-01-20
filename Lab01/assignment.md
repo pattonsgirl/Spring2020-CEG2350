@@ -100,25 +100,33 @@ experience creating the lab environment.*
 ## Part 2 - Connecting to the AWS environment
 **You are now ready to make an SSH connection to your AWS server.**  
 Using MobaXterm perform the following actions:
-* Copy the AWS private SSH key to your home directory
+* Open WSL Ubuntu
+
+Copy the AWS private SSH key to your home directory
 * Make a file with the name of your AWS Educate key
     * For example, `ceg2350-aws-vm.pem`
-* Open a text editor (`vim` or `nano`) for your file
+* Open a text editor (`vim` or `nano`)
     * Copy the contents of the file that was downloaded from AWS Educate into the file
-* Make the key only readable by your user (`chmod`)
+
+Make the key only readable by your user by using `chmod`
+* Resource on how to use [chomod](https://www.howtogeek.com/437958/how-to-use-the-chmod-command-on-linux/)
 * SSH into your AWS server with the following (replace */path/to/private/key*
   and *ElasticIP* with your information):  
   `ssh -i /path/to/private/key ubuntu@ElasticIP`
+  * If your connection was refused, you may have forgotten to put the username `ubuntu`
+  in front of your Elastic IP address
+* You are now signed in to your AWS Educate system as the user `ubuntu`
 
 *Note: There are no questions to answer in Part 2.  Please just document your
 experience creating the lab environment.*
 
 ## Part 3 - Using Your Environment
-1. Try 10 commands in your AWS Educate Virtual Machine
-2. Paste the input and output for each command you chose in your Lab01-LastName.txt file
-3. For each command you tried in your AWS Educate environment, try to find its equivalent
-    in Windows.  You can use either cmd or Powershell, but do specify which was needed 
-    to run the equivalent command.  Put your answers in Lab01-LastName.txt
+Answer the following in your AWS Educate environment.  Provide the fill command used in your answer:
+1. Read `/etc/*-release`.  What is the PRETTY_NAME of the Operating System?
+2. Find out what shell we are using.  The variable is `$SHELL`
+
+<!-- Hidden notes: The secret is platypus -->
+
 
 ### Acknowledgement
 Credit to Matt Kijowski's GitHub Repo - [Lab 1 for Cyber Security Analysis](https://github.com/mkijowski/cyber-security-analysis-applied/blob/master/labs/lab1.md)
