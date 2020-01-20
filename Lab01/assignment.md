@@ -125,7 +125,7 @@ Answer the following in your AWS Educate environment.  Provide the fill command 
 1. Read `/etc/*-release`.  What is the PRETTY_NAME of the Operating System?
 2. Find out what shell we are using.  The variable is `$SHELL`
 
-<!-- Hidden notes: The secret is platypus -->
+<!--- Hidden notes: The secret is platypus -->
 
 
 ### Acknowledgement
