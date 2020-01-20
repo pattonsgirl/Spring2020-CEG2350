@@ -39,8 +39,7 @@ Name: Your name
 Email: Your email
 
 ```
-For each part give a summary of steps taken and document any challenges you faced.   
-Be sure to answer all questions asked.
+For the first two parts, give a summary of steps taken and document any challenges you faced.   
 
 ## Register for AWS Educate
 You should have an email from AWS Educate to guide you through account creation.  
@@ -121,12 +120,12 @@ Make the key only readable by your user by using `chmod`
 experience creating the lab environment.*
 
 ## Part 3 - Using Your Environment
-Answer the following in your AWS Educate environment.  Provide the fill command used in your answer:
+Answer the following using your AWS Educate environment.  Provide the command used in your answer.
 1. Read `/etc/*-release`.  What is the PRETTY_NAME of the Operating System?
-2. Find out what shell we are using.  The variable is `$SHELL`
+2. Find out what default shell we are using.  Read `/etc/passwd`
 
-<!--- Hidden notes: The secret is platypus -->
-
+## Submission
+Upload your file named Lab01-LastName.txt to the Pilot Dropbox.
 
 ### Acknowledgement
 Credit to Matt Kijowski's GitHub Repo - [Lab 1 for Cyber Security Analysis](https://github.com/mkijowski/cyber-security-analysis-applied/blob/master/labs/lab1.md)
