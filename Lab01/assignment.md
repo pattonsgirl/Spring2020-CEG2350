@@ -48,6 +48,11 @@ Note: The email was sent to your wright.edu email account
 Once you have filled in the information and verified your email address, you will get an account  
 approval email.  For reference, mine took 2-3 minutes to arrive.
 
+*Registration form warnings*:
+* Make sure you set a graduation date in the future (prediect yours, add a year or two)
+* The last field on the right is a Promotional Code field.  Your autofill may mistake it for a  
+  zip code and unhelpfully fill it out for you.
+
 ## Part 1 - Provision the lab environment in AWS.  
 Assuming you have registered for AWS Educate and have access to this class, perform the following:
 
