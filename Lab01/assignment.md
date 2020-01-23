@@ -81,7 +81,8 @@ Now we need to create an SSH key pair to get to your virtual machine.
   downloads the private key to your local machine.
 * **Do not lose this private key.**  
   If you do lose it, log in to AWS Educate, delete the lost key, and generate a new one.  
-  If you are using a lab machine, save your key by emailing it to yourself to saving it to a USB drive
+  If you are using a lab machine, save your key by emailing it to yourself to saving it to a USB drive  
+  *If given the option between a key for PuTTy and a key for SSH, select SSH*
 * Once you have created your SSH key, [click here to provision your virtual environment](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=CEG-2350&templateURL=https:%2F%2Fwsu-cecs-cf-templates.s3.us-east-2.amazonaws.com%2Fceg2350.yml)  
   This link autofills many fields for creating our virtual machine.
   * On the first menu, click Next
@@ -106,17 +107,18 @@ experience creating the lab environment.*
 Using MobaXterm perform the following actions:
 * Open WSL Ubuntu
 
+Windows Users:  
 Copy the AWS private SSH key to your home directory
 * Make a file with the name of your AWS Educate key
     * For example, `ceg2350-aws-vm.pem`
 * Open a text editor (`vim` or `nano`)
-    * Copy the contents of the file that was downloaded from AWS Educate into the file
+    * Copy the contents of the key that was downloaded from AWS Educate into the file
 
 Make the key only readable by your user by using `chmod`
-* Resource on how to use [chomod](https://www.howtogeek.com/437958/how-to-use-the-chmod-command-on-linux/)
-* SSH into your AWS server with the following (replace */path/to/private/key*
-  and *ElasticIP* with your information):  
-  `ssh -i /path/to/private/key ubuntu@ElasticIP`
+* Resource on how to use [chmod](https://www.howtogeek.com/437958/how-to-use-the-chmod-command-on-linux/)
+* SSH into your AWS server with the following command  
+    `ssh -i /path/to/private/key ubuntu@ElasticIP`  
+    Note: replace */path/to/private/key* and *ElasticIP* with your information
   * If your connection was refused, you may have forgotten to put the username `ubuntu`
   in front of your Elastic IP address
 * You are now signed in to your AWS Educate system as the user `ubuntu`
@@ -128,6 +130,7 @@ experience creating the lab environment.*
 Answer the following using your AWS Educate environment.  Provide the command used in your answer.
 1. Read `/etc/*-release`.  What is the PRETTY_NAME of the Operating System?
 2. Find out what default shell we are using.  Read `/etc/passwd`
+    * A guide on what is in [/etc/passwd](http://www.linfo.org/etc_passwd.html)
 
 ## Submission
 Upload your file named Lab01-LastName.txt to the Pilot Dropbox.
