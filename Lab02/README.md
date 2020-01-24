@@ -37,3 +37,6 @@ Log in to your AWS Educate environment:
 * Create a hidden file
 * Play with chmod
 * Explore soft links vs. hard links
+
+## Submission
+Upload your file named Lab02-LastName.txt to the Pilot Dropbox.
