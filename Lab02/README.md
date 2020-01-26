@@ -11,9 +11,9 @@ Email: Your email
 
 ```
 ## Part 1 - Other ways to access your key
-One uses MobaXTerm.  The other uses Powershell (assuming you have the latest version of Windows 10).  Since one is consistent (MobaXTerm) and the other is not (Powershell), I'll tell you how to use just MobaXTerm.
+Now that we've gone the long way, let's look at the shortcut.  MobaXTerm has ssh built in by default, so you could use it instead of WSL Ubuntu to SSH to your AWS Educate environment.  The purpose of this part of the lab is to find a file using the command line.  Pick one of the two routes below to find the key you downloaded or saved to your local system, not the key we copied to `/home/your_username/`
 
-* Open MobaXTerm
+1. Open MobaXTerm w/ Local Terminal
 * On the front page, before you click or open anything, you should see an option for "Start Local Terminal"
     * If you already setup WSL Ubuntu as your default:  
         In the User Sessions listing, right click and select "New Session"
@@ -23,15 +23,24 @@ One uses MobaXTerm.  The other uses Powershell (assuming you have the latest ver
     * Try typing `cd /drives/`
     * Use `ls` to see what is in this directory.
 
-Now that you can see your file system, in your lab write notes write the file path to get to your key.  
-Commands that may help: `pwd, ls, cd`    
-*Note: not the one we copied to WSL Ubuntu, but the one that you downloaded or saved*
+2. Open MobaXTerm OR WSL Ubuntu
+* Open a WSL Ubuntu terminal
+* The Welcome text in the shell tells us something very convenient: 
+    * `Windows drives are mounted into /mnt path`
+    * Try typing `cd /mnt/`
+    * Use `ls` to see what is in this directory.
+
+Now that you can see your file system, **in your lab notes, write the file path to your key**.
+Commands that may help: `pwd, ls, cd`
+
+Mac users:  
+In your Terminal go to your root directory.  In your lab notes, write the file path to get to your key.
 
 
-Log in to your AWS Educate environment:  
+## Part 2 - Log in to your AWS Educate environment:  
 `ssh -i /path/to/private/key ubuntu@ElasticIP` 
 
-## Part 2 - Files and Directories
+## Part 3 - Files and Directories
 * Create directories
 * Create files
 * Create a hidden file
