@@ -9,4 +9,4 @@ The steps below should only be needed if you lost your key from AWS Educate
 3. Go to the Services Dropdown, under Compute select EC2
 4. Select Key Pairs
 5. Select your key pair(s) and select Delete.
-6. Recreate your environment by following the steps in the Lab 01 guide
+6. Recreate your environment by following the steps in the [Lab 01](Lab01/) guide
