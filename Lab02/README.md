@@ -41,7 +41,7 @@ In your Terminal go to your root directory.  In your lab notes, write the file p
 `ssh -i /path/to/private/key ubuntu@ElasticIP`
 
 If you've forgotten your key, you'll need to provision a new stack in AWS Educate and create a new key.  
-See [Remaking your AWS Educate environment](../) for instructions.
+See [Remaking your AWS Educate environment](../../..) for instructions.
 
 ## Part 3 - Files and Directories
 * Create directories
