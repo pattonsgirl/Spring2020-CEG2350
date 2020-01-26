@@ -30,15 +30,18 @@ Now that we've gone the long way, let's look at the shortcut.  MobaXTerm has ssh
     * Try typing `cd /mnt/`
     * Use `ls` to see what is in this directory.
 
-Now that you can see your file system, **in your lab notes, write the file path to your key**.
-Commands that may help: `pwd, ls, cd`
+Now that you can see your file system, **in your lab notes, write the file path to your key**.  
+Useful Commands: `pwd, ls, cd`
 
 Mac users:  
 In your Terminal go to your root directory.  In your lab notes, write the file path to get to your key.
 
 
 ## Part 2 - Log in to your AWS Educate environment:  
-`ssh -i /path/to/private/key ubuntu@ElasticIP` 
+`ssh -i /path/to/private/key ubuntu@ElasticIP`
+
+If you've forgotten your key, you'll need to provision a new stack in AWS Educate and create a new key.  
+See [Remaking your AWS Educate environment](.\) for instructions.
 
 ## Part 3 - Files and Directories
 * Create directories
