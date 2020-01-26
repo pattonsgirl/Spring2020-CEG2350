@@ -38,17 +38,43 @@ In your Terminal go to your root directory.  In your lab notes, write the file p
 
 
 ## Part 2 - Log in to your AWS Educate environment:  
-`ssh -i /path/to/private/key ubuntu@ElasticIP`
+`ssh -i /path/to/private/key ubuntu@ElasticIP`  
+Use either your newly found path to your key or the key in your `/home/username` directory.
 
 If you've forgotten your key, you'll need to provision a new stack in AWS Educate and create a new key.  
 See [Remaking your AWS Educate environment](../../..) for instructions.
 
-## Part 3 - Files and Directories
-* Create directories
-* Create files
-* Create a hidden file
-* Play with chmod
-* Explore soft links vs. hard links
+1. Run `sudo apt update` - in your lab notes, explain what update does
+2. Run `sudo apt upgrade` - in your lab notes, explain what upgrade does
+3. Run `sudo apt autoremove` - in your lab notes, explain what autoremove does
+Useful commands: `man, apt, sudo`
+
+## Part 3 - Directories, Files, and Permissions
+Where questions are presented, answer them in your lab notes.  For each step, include the command you  
+used to perform the direction or answer the question posed.  If you did something "wrong" make a note  
+of it in your lab.  These are learning experiences.
+1. Create a directory called `Lab02`
+    * In `Lab02`, create one directory called `DirA` and one directory called `Directory B`
+    * What happens to the path name of `Directory B`?  Which of the folders uses a better naming convention?
+    * Rename `Directory B` to `DirB`  
+    Useful commands: `man, mkdir, cd, ls, pwd, mv`
+2. In `DirA`, create a file called `test.txt`
+    * Put at least three lines of text in `test.txt` using `vim`
+    Useful commands: `touch, vim`
+3. Make a copy of `test.txt`
+    * Rename it to `.hidden.txt`
+    * Type `ls`.  Can you see both files?  Use flags for `ls` to see your file.  
+    Useful commands: `cp, mv, ls`
+4. What are the permission settings for user, group, and other of the files in `DirA`?  What is the current  
+owner and group name?  
+    * Use `sudo` to make a copy of `text.txt` called `su-test.txt`
+    * What are the permission settings for user, group, and other for `su-text.txt`?  What is the current  
+owner and group name?
+    * Can your user read this file?  How can you read this file? 
+    * Change the file permissions so you can read and write to the file without using sudo 
+    Useful Commands: `chmod, chown, chgrp, ls, sudo, cp, cat`
+5. Explore soft links vs. hard links
+
 
 ## Submission
 Upload your file named Lab02-LastName.txt to the Pilot Dropbox.
