@@ -73,7 +73,17 @@ owner and group name?
     * Can your user read this file?  How can you read this file? 
     * Change the file permissions so you can read and write to the file without using sudo 
     Useful Commands: `chmod, chown, chgrp, ls, sudo, cp, cat`
-5. Explore soft links vs. hard links
+5. By default, what does `ln` followed by a filename do?  Use `ln` to create a file named `hard.txt` from `test.txt`
+    * Note the inode number of `hard.txt` and `test.txt`
+    * Create a symbolic link called `sym.txt` from `hard.txt`
+    * Note the inode number of `sym.txt`.  Is it the same as `hard.txt`?
+    * Delete `test.txt`.  Is `hard.txt` and `sym.txt` still readable?
+    * Delete `hard.txt`.  Is `sym.txt` still readable?  Why or why not?
+    * Make a new file called `hard.txt` with some text in it.  Can you read `sym.txt` now?
+    * Move `hard.txt` to `DirB`.  Can you read `sym.txt`?
+    * Delete `sym.txt`
+    * Create a symbolic link from `hard.txt` in `DirB` to `newsym.txt` in `DirA`
+    Useful Commands: `ln, test, stat`
 
 
 ## Submission
