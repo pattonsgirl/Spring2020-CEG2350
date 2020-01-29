@@ -71,7 +71,7 @@ owner and group name?
     * What are the permission settings for user, group, and other for `su-text.txt`?  What is the current  
 owner and group name?
     * Can your user read this file?  How can you read this file? 
-    * Change the file permissions so you can read and write to the file without using sudo 
+    * Change the file permissions so you can read and write to the file without using sudo  
     Useful Commands: `chmod, chown, chgrp, ls, sudo, cp, cat`
 5. By default, what does `ln` followed by a filename do?  Use `ln` to create a file named `hard.txt` from `test.txt`
     * Note the inode number of `hard.txt` and `test.txt`
@@ -82,7 +82,7 @@ owner and group name?
     * Make a new file called `hard.txt` with some text in it.  Can you read `sym.txt` now?
     * Move `hard.txt` to `DirB`.  Can you read `sym.txt`?
     * Delete `sym.txt`
-    * Create a symbolic link from `hard.txt` in `DirB` to `newsym.txt` in `DirA`
+    * Create a symbolic link from `hard.txt` in `DirB` to `newsym.txt` in `DirA`  
     Useful Commands: `ln, test, stat`
 
 
