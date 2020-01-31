@@ -46,7 +46,7 @@ See [Remaking your AWS Educate environment](../../..) for instructions.
 
 1. Run `sudo apt update` - in your lab notes, explain what update does
 2. Run `sudo apt upgrade` - in your lab notes, explain what upgrade does
-3. Run `sudo apt autoremove` - in your lab notes, explain what autoremove does
+3. Run `sudo apt autoremove` - in your lab notes, explain what autoremove does  
 Useful commands: `man, apt, sudo`
 
 ## Part 3 - Directories, Files, and Permissions
