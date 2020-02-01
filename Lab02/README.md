@@ -31,7 +31,7 @@ Now that we've gone the long way, let's look at the shortcut.  MobaXTerm has ssh
     * Use `ls` to see what is in this directory.
 
 Now that you can see your file system, **in your lab notes, write the file path to your key**.  
-Useful Commands: `pwd, ls, cd`
+**Useful Commands: `pwd, ls, cd`**
 
 Mac users:  
 In your Terminal go to your root directory.  In your lab notes, write the file path to get to your key.
@@ -47,7 +47,7 @@ See [Remaking your AWS Educate environment](../../..) for instructions.
 1. Run `sudo apt update` - in your lab notes, explain what update does
 2. Run `sudo apt upgrade` - in your lab notes, explain what upgrade does
 3. Run `sudo apt autoremove` - in your lab notes, explain what autoremove does  
-Useful commands: `man, apt, sudo`
+**Useful commands: `man, apt, sudo`**
 
 ## Part 3 - Directories, Files, and Permissions
 Where questions are presented, answer them in your lab notes.  For each step, include the command you  
@@ -57,14 +57,17 @@ of it in your lab.  These are learning experiences.
     * In `Lab02`, create one directory called `DirA` and one directory called `Directory B`
     * What happens to the path name of `Directory B`?  Which of the folders uses a better naming convention?
     * Rename `Directory B` to `DirB`  
-    Useful commands: `man, mkdir, cd, ls, pwd, mv`
+**Useful commands: `man, mkdir, cd, ls, pwd, mv`**
+
 2. In `DirA`, create a file called `test.txt`
     * Put at least three lines of text in `test.txt` using `vim`
-    Useful commands: `touch, vim`
+**Useful commands: `touch, vim`**
+
 3. Make a copy of `test.txt`
     * Rename it to `.hidden.txt`
     * Type `ls`.  Can you see both files?  Use flags for `ls` to see your file.  
-    Useful commands: `cp, mv, ls`
+**Useful commands: `cp, mv, ls`**
+
 4. What are the permission settings for user, group, and other of the files in `DirA`?  What is the current  
 owner and group name?  
     * Use `sudo` to make a copy of `text.txt` called `su-test.txt`
@@ -72,7 +75,8 @@ owner and group name?
 owner and group name?
     * Can your user read this file?  How can you read this file? 
     * Change the file permissions so you can read and write to the file without using sudo  
-    Useful Commands: `chmod, chown, chgrp, ls, sudo, cp, cat`
+**Useful Commands: `chmod, chown, chgrp, ls, sudo, cp, cat`**
+
 5. By default, what does `ln` followed by a filename do?  Use `ln` to create a file named `hard.txt` from `test.txt`
     * Note the inode number of `hard.txt` and `test.txt`
     * Create a symbolic link called `sym.txt` from `hard.txt`
@@ -83,7 +87,7 @@ owner and group name?
     * Move `hard.txt` to `DirB`.  Can you read `sym.txt`?
     * Delete `sym.txt`
     * Create a symbolic link from `hard.txt` in `DirB` to `newsym.txt` in `DirA`  
-    Useful Commands: `ln, test, stat`
+**Useful Commands: `ln, test, stat`**
 
 
 ## Submission
