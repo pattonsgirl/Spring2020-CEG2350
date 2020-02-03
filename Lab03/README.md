@@ -1,4 +1,4 @@
-# Lab 3 - NOT FINALIZED
+# Lab 3
 
 ## Lab Procedure
 Document your progress in a plain text file named `Lab03-LastName.txt`  
@@ -36,13 +36,13 @@ See [Remaking your AWS Educate environment](../../..) for instructions.
         * Hint: If it looks unfamilar, use Google to find the common name
     * How many Gigabytes (GB) of storage do we have?
 
-## Part 2 - Practicing Partitions
+## Part 2 - Partitions
 1. Use `df -h`
     * How much space is used and how much space is free?
 2. Run `parted` on the disk (use the answer you found in Part 1-3)
     * How can you view the options for `parted`?
 3. The remainder of this section will deal with theorical questions since we can't go to AWS in person.
-    * There are two steps to creating partitions.  
+    * There are two steps related to resizing partitions - list them .
         * Note the process to *expand* a filesystem.
         * Note the process to *shrink* a filesystem.
         * *Hint*: You can use Google, or you can look at the usage guide for `resize2fs`
@@ -51,16 +51,10 @@ See [Remaking your AWS Educate environment](../../..) for instructions.
         * What partition table should we select?  Why?
         * What command(s) / program(s) can we use to create a partition table on our new drive? 
             * Note the command and its parameters
-        * 
-        
-Make a filesystem on that partition that is compatible with Linux.  Mount the partition to /mnt/Lab03
-
-Note: If this goes sideways, DON'T PANIC.  You will just need to create a new stack by deleting yours, then clicking the provision link from Lab 1 - you do not need to create a new key, just reference your good key when creating your stack.
-
-## Part 3 - Processes?
-
-
-Look at /usr/lib
+        * What command can we use to create a filesystem on our partition?
+            * Note the command and its parameters
+    * Let's assume the above went well.  Write the command to mount the drive to `/mnt/Lab03`
+        * If we wanted to make this permanent, what file would we need to edit?
 
 ## Submission
 Upload your file named `Lab03-LastName.txt` to the Pilot Dropbox.
