@@ -21,12 +21,14 @@ Unless explicity stated, assume you should perform the lab assignment in your AW
 If you've lost or forgotten your key, you'll need to provision a new stack in AWS Educate and create a new key.  
 See [Remaking your AWS Educate environment](../../..) for instructions.
 
-## Part 1 - Exploring the File System:
+## Part 1 - Exploring the File System
 1. Identify the bootloader and kernel for your local system (ie. laptop, home pc, or lab machine).
 
 2. Read `/boot/grub/menu.lst`  
-    * If you were to see the grub menu while booting, what are the options grub would present?  What kernel is used AWS Educate?   
-    * Use df -T to find out the file system used by this device.  Hint: what is the top of the Linux directory structure?
+    * If you were to see the grub menu while booting, what are the options grub would present?  
+    * What kernel is used AWS Educate?   
+    * Use `df -T` to find out the file system used by this device.  
+        * Hint: What is the top of the Linux directory structure?
 
 3. Run `sudo parted -l`
     * What is the primary disk in the `/dev` folder?  
@@ -37,9 +39,14 @@ See [Remaking your AWS Educate environment](../../..) for instructions.
 ## Part 2 - Practicing Partitions
 1. Use `df -h`
     * How much space is used and how much space is free?
-2. Use the appropriate partitioning tool to create a 0.5 GB partition.  Make a filesystem on that partition that is compatible with Linux.  Mount the partition to /mnt/Lab03
+2. Run `parted` on the disk (use the answer you found in Part 1-3)
+    * 
+  Make a filesystem on that partition that is compatible with Linux.  Mount the partition to /mnt/Lab03
 
-Note: If you ruin this, DON'T PANIC.  You will just need to create a new stack by deleting yours, then clicking the provision link from Lab 1
+Note: If this goes sideways, DON'T PANIC.  You will just need to create a new stack by deleting yours, then clicking the provision link from Lab 1 - you do not need to create a new key.
+
+## Part 3 - Processes?
+
 
 Look at /usr/lib
 

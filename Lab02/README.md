@@ -70,8 +70,8 @@ of it in your lab.  These are learning experiences.
 
 4. What are the permission settings for user, group, and other of the files in `DirA`?  What is the current  
 owner and group name?  
-    * Use `sudo` to make a copy of `text.txt` called `su-test.txt`
-    * What are the permission settings for user, group, and other for `su-text.txt`?  What is the current  
+    * Use `sudo` to make a copy of `test.txt` called `su-test.txt`
+    * What are the permission settings for user, group, and other for `su-test.txt`?  What is the current  
 owner and group name?
     * Can your user read this file?  How can you read this file? 
     * Change the file permissions so you can read and write to the file without using sudo  
