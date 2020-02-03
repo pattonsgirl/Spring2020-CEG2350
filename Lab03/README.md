@@ -40,10 +40,22 @@ See [Remaking your AWS Educate environment](../../..) for instructions.
 1. Use `df -h`
     * How much space is used and how much space is free?
 2. Run `parted` on the disk (use the answer you found in Part 1-3)
-    * 
-  Make a filesystem on that partition that is compatible with Linux.  Mount the partition to /mnt/Lab03
+    * How can you view the options for `parted`?
+3. The remainder of this section will deal with theorical questions since we can't go to AWS in person.
+    * There are two steps to creating partitions.  
+        * Note the process to *expand* a filesystem.
+        * Note the process to *shrink* a filesystem.
+        * *Hint*: You can use Google, or you can look at the usage guide for `resize2fs`
+    * Let's say we can go to AWS and plug in a brand new hard drive that is 8TB in size.  Assume that when the drive  
+    is plugged in, the drive name is `/dev/sdb`
+        * What partition table should we select?  Why?
+        * What command(s) / program(s) can we use to create a partition table on our new drive? 
+            * Note the command and its parameters
+        * 
+        
+Make a filesystem on that partition that is compatible with Linux.  Mount the partition to /mnt/Lab03
 
-Note: If this goes sideways, DON'T PANIC.  You will just need to create a new stack by deleting yours, then clicking the provision link from Lab 1 - you do not need to create a new key.
+Note: If this goes sideways, DON'T PANIC.  You will just need to create a new stack by deleting yours, then clicking the provision link from Lab 1 - you do not need to create a new key, just reference your good key when creating your stack.
 
 ## Part 3 - Processes?
 
