@@ -24,13 +24,13 @@ See [Remaking your AWS Educate environment](../../..) for instructions.
 ## Part 1 - Exploring the File System
 1. Identify the bootloader and kernel for your local system (ie. laptop, home pc, or lab machine).
 
-2. Read `/boot/grub/menu.lst`  
+2. In AWS, read `/boot/grub/menu.lst`  
     * If you were to see the grub menu while booting, what are the options grub would present?  
     * What kernel is used AWS Educate?   
     * Use `df -T` to find out the file system used by this device.  
         * Hint: What is the top of the Linux directory structure?
 
-3. Run `sudo parted -l`
+3. In AWS, run `sudo parted -l`
     * What is the primary disk in the `/dev` folder?  
     * What type of partition table is our AWS environment using? 
         * Hint: If it looks unfamilar, use Google to find the common name
