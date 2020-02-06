@@ -22,7 +22,8 @@ If you've lost or forgotten your key, you'll need to provision a new stack in AW
 See [Remaking your AWS Educate environment](../../..) for instructions.
 
 ## Part 1 - Exploring the File System
-1. Identify the bootloader and kernel for your local system (ie. laptop, home pc, or lab machine).
+1. Identify the bootloader and kernel for your **local** system (ie. laptop, home pc, or lab machine).
+    * Note: some systems can refer to lab slides for terminology.  Don't need proof.
 
 2. In AWS, read `/boot/grub/menu.lst`  
     * If you were to see the grub menu while booting, what are the options grub would present?  
