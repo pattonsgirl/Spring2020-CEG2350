@@ -43,7 +43,7 @@ See [Remaking your AWS Educate environment](../../..) for instructions.
 2. Run `parted` on the disk (use the answer you found in Part 1-3)
     * How can you view the options for `parted`?
 3. The remainder of this section will deal with theorical questions since we can't go to AWS in person.
-    * There are two steps related to resizing partitions - list them .
+    * There are two steps related to resizing partitions - list them.
         * Note the process to *expand* a filesystem.
         * Note the process to *shrink* a filesystem.
         * *Hint*: You can use Google, or you can look at the usage guide for `resize2fs`
