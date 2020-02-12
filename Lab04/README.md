@@ -25,6 +25,7 @@ See [Remaking your AWS Educate environment](../../..) for instructions.
 **Log in to your AWS Edu environment:**
 
 1. Craft a command that snapshots processes being run by and for your user, `ubuntu`
+    * Note: you need to use to correct flags to see all process being run.
     * Helpful commands: `grep, ps, |`
 
 2. `sleep` is a neat command that creates a process that does nothing for the amount of time specified.  I very  
