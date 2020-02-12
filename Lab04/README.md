@@ -60,7 +60,7 @@ an absolute path instead of relative?
 3. List the version and location of `python`, `java`, and `gcc`.  Helpful commands: `whereis, which, man`
     * How can I use python 3?
 
-4. Create a folder named `Lab03`.  Go into the folder.  Create a file named `input.txt`.  Put the following content in it:
+4. Create a folder named `Lab04`.  Go into the folder.  Create a file named `input.txt`.  Put the following content in it:
     ```
     Hello!
     ```
