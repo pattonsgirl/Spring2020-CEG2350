@@ -38,7 +38,7 @@ much recommend reading through the rest of this section before performing it.
     * `kill` the `sleep` command running in the other terminal using its process ID.
     * Switch to the terminal you wrote the `sleep` command in.  Is there a message there?
     * Run the command again, but this time set it to run in the background.
-    * Use the process ID to bring it back to the foreground, and send a signal to terminate it with `Ctrl+C`
+    * Use the job ID to bring it back to the foreground, and send a signal to terminate it with `Ctrl+C`
 
 ## Part 2 - Programs
 1. On your **local** machine, create an `alias` called `aws-ssh` that contains the command and parameters you have  
