@@ -31,8 +31,7 @@ See [Remaking your AWS Educate environment](../../..) for instructions.
 ```
 Course work for CEG 2350 Spring 2020
 ```
-    * You should now be in your repository.
-3. Select Clone or Download (green button).  It should say "Clone with HTTPS".  Copy the URL to your clipboard
+3. In your github repository, select Clone or Download (green button).  It should say "Clone with HTTPS".  Copy the URL to your clipboard
 4. Go to your AWS Educate environment.
 5. Create a folder called `git` and change into the folder.  Write the command you used.
 6. Use the `git` command to `clone` your repository.  Write the command you used.
