@@ -39,13 +39,15 @@ Course work for CEG 2350 Spring 2020
 
 ## Part 2 - Simple Makefile
 1. Copy your `Lab04` folder to `git/CEG2350/Lab05`.  Write the command(s) you used.
-2. In `Lab05` create a file called `Makefile`.  Write the command you used.
-3. Write contents in `Makefile` so that in the shell the following command perform the following actions:
+2. Check the `status` of your git repository.  Write the command you used and any output.
+3. Commit and push the folder `Lab05` and its contents to your git repo.  Write the command(s) you used.
+4. In `Lab05` create a file called `Makefile`.  Write the command you used.
+5. Write contents in `Makefile` so that in the shell the following commands perform the following actions:
     * `make` will compile the program and create an executable version
     * `make run` will compile and execute the program
     * `make clean` will delete the compiled program
-4. Copy the contents of your `Makefile` into your lab notes.
-5. Commit and push your `Makefile` into your git repo.
+6. Copy the contents of your `Makefile` into your lab notes.
+7. Commit and push your `Makefile` into your git repo.  Write the command you used.
 
 ## Part 3 - 
 
