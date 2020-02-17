@@ -48,7 +48,5 @@ Course work for CEG 2350 Spring 2020
 6. Copy the contents of your `Makefile` into your lab notes.
 7. Commit and push your `Makefile` into your git repo.  Write the command you used.
 
-## Part 3 - 
-
 ## Submission
 Upload your file named `Lab05-LastName.txt` to the Pilot Dropbox.
