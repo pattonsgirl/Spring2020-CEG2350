@@ -1,4 +1,4 @@
-# Lab 5 - NOT FINALIZED
+# Lab 5
 
 ## Lab Procedure
 Document your progress in a plain text file named `Lab05-LastName.txt`  
