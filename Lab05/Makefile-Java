@@ -1,0 +1,20 @@
+# define java compiler
+#   it would be better to do an absolute path to javac
+JCC = javac
+JV = java
+
+# define compilation flag(s)
+#   -g compiles with debugging information
+JFLAGS = -g
+
+# default action of my makefile (because this is first)
+default: demo.java
+        $(JCC) $(JFLAGS) demo.java
+
+# defining target (or command to be used with make) to run my program
+execute:
+        $(JV) demo
+
+# defining target to delete my compiled program
+delete:
+        rm demo.class

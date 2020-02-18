@@ -37,6 +37,7 @@ Course work for CEG 2350 Spring 2020
 6. Use the `git` command to `clone` your repository.  Write the command you used.
 
 ## Part 2 - Simple Makefile
+**Sample Makefiles for Java and C are posted in this repo.  Click to view**
 1. Copy your `Lab04` folder to `git/CEG2350/Lab05`.  Write the command(s) you used.
 2. Check the `status` of your git repository.  Write the command you used and any output.
 3. Commit and push the folder `Lab05` and its contents to your git repo.  Write the command(s) you used.
