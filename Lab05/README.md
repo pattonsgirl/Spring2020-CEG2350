@@ -27,10 +27,7 @@ See [Remaking your AWS Educate environment](../../..) for instructions.
     * Set it to Private (you can change this in the future).  
     * Check the box to Initialize this repository  with a README
     * Click Create Repository
-    * You should be asked to input text into a `README.md` file.  Your text can be:
-```
-Course work for CEG 2350 Spring 2020
-```
+
 3. In your github repository, select Clone or Download (green button).  It should say "Clone with HTTPS".  Copy the URL to your clipboard
 4. Go to your AWS Educate environment.
 5. Create a folder called `git` and change into the folder.  Write the command you used.
@@ -39,15 +36,19 @@ Course work for CEG 2350 Spring 2020
 ## Part 2 - Simple Makefile
 **Sample Makefiles for Java and C are posted in this repo.  Click to view**
 1. Copy your `Lab04` folder to `git/CEG2350/Lab05`.  Write the command(s) you used.
-2. Check the `status` of your git repository.  Write the command you used and any output.
-3. Commit and push the folder `Lab05` and its contents to your git repo.  Write the command(s) you used.
-4. In `Lab05` create a file called `Makefile`.  Write the command you used.
-5. Write contents in `Makefile` so that in the shell the following commands perform the following actions:
+2. Edit the `README.md` file.  Your text can be:
+```
+Course work for CEG 2350 Spring 2020
+```
+3. Check the `status` of your git repository.  Write the command you used and any output.
+4. Commit and push the folder `Lab05` and its contents to your git repo.  Write the command(s) you used.
+5. In `Lab05` create a file called `Makefile`.  Write the command you used.
+6. Write contents in `Makefile` so that in the shell the following commands perform the following actions:
     * `make` will compile the program and create an executable version
     * `make run` will compile and execute the program
     * `make clean` will delete the compiled program
-6. Copy the contents of your `Makefile` into your lab notes.
-7. Commit and push your `Makefile` into your git repo.  Write the command you used.
+7. Copy the contents of your `Makefile` into your lab notes.
+8. Commit and push your `Makefile` into your git repo.  Write the command you used.
 
 ## Submission
 Upload your file named `Lab05-LastName.txt` to the Pilot Dropbox.
