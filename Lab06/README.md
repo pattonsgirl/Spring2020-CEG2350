@@ -88,9 +88,3 @@ Therefore, `sorted.txt` should have these contents:
 
 ## Submission
 Upload your file named `Lab06-LastName.txt` to the Pilot Dropbox.
-
-Check permission post sftp
-Use md5sum to check validity of a file
-gpg encrytpion?
-
-Scripting & git
