@@ -51,6 +51,7 @@ See [Remaking your AWS Educate environment](../../..) for instructions.
 * Takes in an *input* file name as a first argument.  
     * When you use the script, you can use `sortme.txt` as your argument to the script.
 * Uses regular expressions to verify that the file name end in `.txt`  [This guide](https://www.poftut.com/how-to-use-regular-expression-regex-in-bash-linux/) should help you out.
+    * If file does *not* end in `.txt` then your script should exit with an error message.
 * Sorts the data using the `sort` command.
 * Outputs the sorted data to a file called `sorted.txt`
 
