@@ -21,13 +21,10 @@ Unless explicity stated, assume you should perform the lab assignment in your AW
 If you've lost or forgotten your key, you'll need to provision a new stack in AWS Educate and create a new key.  
 See [Remaking your AWS Educate environment](../../..) for instructions.
 
-## Part 1 - More Git Practice (1 pt)
+## Intro to Scripts & Regular Expressions
 1. Go to your AWS Educate environment.
 2. In your CEG2350 git repository, create a new folder called `Lab06`.
-3. Add the folder for tracking, and commit and push the folder to your GitHub repository.
-
-## Part 2 - Intro to Scripts & Regular Expressions (9 pts)
-1. Create a file in `Lab06` called `sortme.txt`.  It should have the contents below:
+3. Create a file in `Lab06` called `sortme.txt`.  It should have the contents below:
 ```
 9.1
 43.7
@@ -50,10 +47,10 @@ See [Remaking your AWS Educate environment](../../..) for instructions.
 2
 2.3
 ```
-2. Create a bash script called `sorting-party.sh`.  The script should have the following features:
-* Takes in an *input* file name as a first argument.
-* Takes in an *output* file name as a second argument.
-* Uses regular expressions to verify that the file names end in `.txt`  [This guide](https://www.poftut.com/how-to-use-regular-expression-regex-in-bash-linux/) should help you out.
+4. Create a bash script called `sorting-party.sh`.  The script should have the following features:
+* Takes in an *input* file name as a first argument.  
+    * When you use the script, you can use `sortme.txt` as your argument to the script.
+* Uses regular expressions to verify that the file name end in `.txt`  [This guide](https://www.poftut.com/how-to-use-regular-expression-regex-in-bash-linux/) should help you out.
 * Sorts the data using the `sort` command.
 * Outputs the sorted data to a file called `sorted.txt`
 
@@ -80,11 +77,11 @@ Therefore, `sorted.txt` should have these contents:
 2.1
 2
 ```
-3. Copy the contents of your script into your lab write up.
-4. Create a file called `README.md`.
+5. Copy the contents of your script into your lab write up.
+6. Create a file called `README.md`.
 * What does the `.md` extension mean in a git repository?
 * Using [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), create a usage guide for how your script works and explaining the contents of the `Lab06` folder.  Copy its content into your lab write up.
-5. Commit and push your files to your github repository.  Write the command(s) you used.
+7. Commit and push your files to your github repository.  Write the command(s) you used.
 
 ## Submission
 Upload your file named `Lab06-LastName.txt` to the Pilot Dropbox.
