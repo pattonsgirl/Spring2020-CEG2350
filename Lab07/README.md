@@ -36,6 +36,15 @@ Q. Write the commands you used per this guide and any additional steps you neede
 Q. Write the commands you used and any additional steps you needed.
 
 ## Part 2:
+For your local system, identify the following information regarding your network connection:
+1. Network interface
+2. MAC address
+3. IP Address
+4. Subnet mask
+5. Gateway
+Q. According to the settings above and some defaults discussed in class, are you on a private network?  Based on that answer, how do you communicate to the "world" (google.com, wright.edu, etc.)?
+
+
 
 ## Submission
 Upload your file named `Lab07-LastName.txt` to the Pilot Dropbox.
