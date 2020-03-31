@@ -32,8 +32,10 @@ Q. Did you paste the public or private key?
 4. In GitHub, go back to your class repository.  Click the Clone or download button, then select "Use SSH".  It should have a form such as: `git@github.com:USERNAME/REPOSITORY.git`.  Copy this URL.
 5. Follow the [Switch remote URLs from HTTPS to SSH](https://help.github.com/en/github/using-git/changing-a-remotes-url) guide in the link provided.  This should be performed in AWS (prefered) or your system if that is where your git repository is.  
 Q. Write the commands you used per this guide and any additional steps you needed.  
-6. In your git repository, create and push a new file to text out your new connection method.  
+6. In your git repository, create and push a new file to check out your new connection method.  
 Q. Write the commands you used and any additional steps you needed.
+
+## Part 2:
 
 ## Submission
 Upload your file named `Lab07-LastName.txt` to the Pilot Dropbox.
