@@ -28,14 +28,14 @@ Q. What is the difference between SSH and GPG keys?
 2. In AWS (preferred) or your system, create an SSH key pair.  (Useful command: `ssh-keygen`)  
 Q. What directory did the key pair get stored in?  Which is the public and which is the private key?  What are some markers to tell the difference?
 3. In GitHub, select New SSH Key.  Paste the contents of your key into GitHub.  
-Q. Did you paste the public or private key?
+Q. Did you paste the public or private key?  Why?
 4. In GitHub, go back to your class repository.  Click the Clone or download button, then select "Use SSH".  It should have a form such as: `git@github.com:USERNAME/REPOSITORY.git`.  Copy this URL.
 5. Follow the [Switch remote URLs from HTTPS to SSH](https://help.github.com/en/github/using-git/changing-a-remotes-url) guide in the link provided.  This should be performed in AWS (prefered) or your system if that is where your git repository is.  
 Q. Write the commands you used per this guide and any additional steps you needed.  
 6. In your git repository, create and push a new file to check out your new connection method.  
 Q. Write the commands you used and any additional steps you needed.
 
-## Part 2:
+## Part 2: [/insert AOL noises here/](https://www.youtube.com/watch?v=D1UY7eDRXrs)
 For your local system, identify the following information regarding your network connection:
 1. Network interface
 2. MAC address
@@ -43,7 +43,10 @@ For your local system, identify the following information regarding your network
 4. Subnet mask
 5. Gateway
 Q. According to the settings above and some defaults discussed in class, are you on a private network?  Based on that answer, how do you communicate to the "world" (google.com, wright.edu, etc.)?
+6. Type `host` followed by the URL of your favorite website.
+Q. Copy the command and its results into your lab write up.  What can you infer?  Do the reverse, `host` followed by the IP address given by the results.  Is your favorite website likely hosted on a single system, or is a single system likely serving multiple websites?
 
+## Part 3:
 
 
 ## Submission
