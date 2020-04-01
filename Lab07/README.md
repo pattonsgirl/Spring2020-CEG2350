@@ -41,9 +41,9 @@ For your local system, identify the following information regarding your network
 2. MAC address
 3. IP Address
 4. Subnet mask
-5. Gateway
+5. Gateway  
 Q. According to the settings above and some defaults discussed in class, are you on a private network?  Based on that answer, how do you communicate to the "world" (google.com, wright.edu, etc.)?
-6. Type `host` followed by the URL of your favorite website.
+6. Type `host` followed by the URL of your favorite website.  
 Q. Copy the command and its results into your lab write up.  What can you infer?  Do the reverse, `host` followed by the IP address given by the results.  Is your favorite website likely hosted on a single system, or is a single system likely serving multiple websites?
 
 ## Part 3:
