@@ -47,13 +47,9 @@ Q. According to the settings above and some defaults discussed in class, are you
 Q. Copy the command and its results into your lab write up.  What can you infer?  Do the reverse, `host` followed by the IP address given by the results.  Is your favorite website likely hosted on a single system, or is a single system likely serving multiple websites?
 
 ## Part 3:
+md5sum
+sftp
 
 
 ## Submission
 Upload your file named `Lab07-LastName.txt` to the Pilot Dropbox.
-
-Check permission post sftp
-Use md5sum to check validity of a file
-gpg encrytpion?
-
-Scripting & git
