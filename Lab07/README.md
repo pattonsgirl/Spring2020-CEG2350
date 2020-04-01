@@ -1,4 +1,4 @@
-# Lab 07 - NOT FINALIZED
+# Lab 07
 
 ## Lab Procedure
 Document your progress in a plain text file named `Lab07-LastName.txt`  
@@ -47,8 +47,10 @@ Q. According to the settings above and some defaults discussed in class, are you
 Q. Copy the command and its results into your lab write up.  What can you infer?  Do the reverse, `host` followed by the IP address given by the results.  Is your favorite website likely hosted on a single system, or is a single system likely serving multiple websites?
 
 ## Part 3:
-md5sum
-sftp
+For the following, document the commands you used and address the question in `3`.
+1. Create a file on your local system (likely in WSL Ubuntu).  Call it something noticeable like `something-noticeable.txt`.  Instead of using the `ssh` command to access AWS, use `sftp`.  If you've forgotten that command by now, take a peek in your `.bashrc` file to peek at your original `ssh` command.    
+2. Using `sftp` commands, create a `Lab07` file inside of your `CEG2350` repository.  Copy your local file to the newly created `Lab07` folder.  Type `help` inside of your `sftp` connection to see a list of available commands.  Once completed, type `exit` to close the connection.
+3. Get the `md5sum` of both your local file and the file now copied to AWS.  Make a change to the contents of one or the other, and check the `md5sum` of both again.  Are the `md5sum`s of both files still the same?  Why or why not?
 
 
 ## Submission
