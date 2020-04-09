@@ -49,8 +49,8 @@ See [Remaking your AWS Educate environment](../../..) for instructions.
 ```
 4. Create a bash script called `sorting-party.sh`.  The script should have the following features:
 * Takes in an *input* file name as a first argument.  (1pt)
-    * When you use the script, you can use `sortme.txt` as your argument to the script. (1pt)
-* Uses regular expressions to verify that the file name end in `.txt`  [This guide](https://www.poftut.com/how-to-use-regular-expression-regex-in-bash-linux/) should help you out. (1pt)
+    * When you use the script, you can use `sortme.txt` as your argument to the script.
+* Uses regular expressions to verify that the file name end in `.txt`  [This guide](https://www.poftut.com/how-to-use-regular-expression-regex-in-bash-linux/) should help you out. (2pt)
     * If file does *not* end in `.txt` then your script should exit with an error message. (1pt)
 * Sorts the data using the `sort` command. (1pt)
 * Outputs the sorted data to a file called `sorted.txt` (1pt)
