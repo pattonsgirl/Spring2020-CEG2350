@@ -25,14 +25,18 @@ See [Remaking your AWS Educate environment](../../..) for instructions.
 
 
 ## Part 2: Back It Up (5pts)
-Rsync & tar?
+1. Use `tar` to create a tar ball of your AWS home directory.
+2. How large is the tarred file?
+3. Use `gzip` (or a similar tool) to compress the file.  How big is it now?
+4. Use an `sftp` connection OR `rysnc` to **download** the compressed home directory to your local system from AWS.
+5. Check the `md5sum` values between the remote and local compressed file to verify file integrity.
 
 ## Extra Credit: Curiousity Taught the Cat (2pt)
 Use your AWS portal, or just use Google.  
 
 Find something that people are using AWS for that you would be curious about investigating.  Try to describe a project idea that comes to mind.
 
-Note: this is for fun.  Have some fun!
+Note: this is for fun.  Have some fun!  Personally, I want to play with the AWS Deep Racer
 
 ## Submission
 Upload your file named `Lab08-LastName.txt` to the Pilot Dropbox.
