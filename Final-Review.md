@@ -25,7 +25,7 @@ It may be useful to fork / clone this to your github.  This will make you feel r
         do  
             stuff with $i  
         done
-        * while loops:
+        * while loops:  
         while [CONDITION]  
         do  
             stuff  
