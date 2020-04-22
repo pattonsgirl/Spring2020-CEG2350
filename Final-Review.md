@@ -11,6 +11,10 @@ It may be useful to fork / clone this to your github.  This will make you feel r
 
 ### bash
 * bash scripting
+    * if statements
+    * loops
+    * using `test` flags
+    * arguments
 * regular expressions
 * sed (basic format)
 * various ways to input / output from a file
