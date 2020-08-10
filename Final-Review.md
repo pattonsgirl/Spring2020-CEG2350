@@ -91,7 +91,7 @@ It may be useful to fork / clone this to your github.  This will make you feel r
     * network interfaces (can be found with ifconfig in linux or with ipconfig in Windows)
         * Linux list these as eth0, wifi0, lo
         * Windows 
-    * MAC addresses - these are "fingerprints" for hardware interfaces (or their vitrual counterparts)
+    * MAC addresses - these are "fingerprints" for hardware interfaces (or their virtual counterparts)
 * private networks (and their virtual counterparts)
 * role of a router (virtual or physical)
     * directs traffic usually from a private network to a public network / server and back again
